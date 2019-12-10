@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'SEO Blog 1.0',
+    title: 'Technical SEO Blog 1.0',
     author: 'Jose Luis Hernando (Technical SEO Consultant)'
   },
   plugins: [
