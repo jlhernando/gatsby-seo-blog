@@ -16,13 +16,14 @@ const MainHeader = () => {
      `)
      return (
           <header className={headerStyles.header}>
-          <div class="logo"></div>
-               <h1>
-                    <Link className={headerStyles.title} to="/">
-                    {data.site.siteMetadata.title}
-                    </Link>
-               </h1>
-               
+               <div class="top">
+                    <img class="logo"></img>
+                    <h1>
+                         <Link className={headerStyles.title} to="/">
+                         {data.site.siteMetadata.title}
+                         </Link>
+                    </h1>
+               </div>
                <nav>
                     <ul className={headerStyles.navList}>
                          <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link></li>

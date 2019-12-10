@@ -622,12 +622,15 @@ html {
    }
    .logo {
     padding: 38px 51px;
-    background: url(../../static/react_logo.svg) no-repeat center / contain; 
+    background: url(../../static/gatsby_logo.svg) no-repeat center / contain; 
     animation: spin 15s infinite linear forwards;
-    display: inline-block;
   }
   
   @keyframes spin {
     from {transform: rotate(0deg) }
     to {transform: rotate(360deg) }
+  }
+  .top {
+    display: flex;
+    align-items: center;
   }
