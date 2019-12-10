@@ -620,3 +620,13 @@ html {
        font-size: 100%;
      }
    }
+   .logo {
+    padding: 38px 51px;
+    background: url(../../static/react_logo.svg) no-repeat center / contain; 
+    animation: spin 15s infinite linear forwards;
+  }
+  
+  @keyframes spin {
+    from {transform: rotate(0deg) }
+    to {transform: rotate(360deg) }
+  }
